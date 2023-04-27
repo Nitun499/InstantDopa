@@ -1,0 +1,78 @@
+.Register{
+    height: 100vh;
+    background-color: rgb(193,190,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        width: 50%;
+        border-radius: 10px;
+        min-height: 400px;
+        overflow: hidden;
+        .left{
+            flex: 1;
+            background:linear-gradient(rgba(86, 129, 128, 0.482),rgba(43, 126, 135, 0.537)), url("https://images.pexels.com/photos/6957569/pexels-photo-6957569.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+            }
+
+            p{
+
+            }
+
+            span{
+                font-size: 15px;
+            }
+            button{
+                width: 50%;
+                background-color: white;
+                border: none;
+                color: rebeccapurple;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            h1{
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid grey;
+                    padding: 10px 10px;
+                }
+                button{
+                    width: 50%;
+                    border: none;
+                    padding: 10px ;
+                    background-color: #938eef;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
